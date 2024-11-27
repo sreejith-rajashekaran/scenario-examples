@@ -1,3 +1,10 @@
-In this tutorial, we will build a simple web app component written in Python that you can use for testing. It reads in an env variable TARGET and prints “Hello ${TARGET}!“. If TARGET is not specified, it will use “World” as the TARGET.
+This is an example microservices application with a Javascript Web UI, a Postgres database, and a series of API microservices. The idea is that various app developers would create Components for their corresponding apps. The overall config will add traits and allow the app to be fully deployed. 
 
-Note: The environment will take a few seconds to be ready with KubeVela being installed
+Full application original source here: https://github.com/chzbrgr71/service-tracker
+
+In this example, there are various roles that handle each aspect of the OAM application.
+
+- UI Developer
+- API Microservices Developer
+- Postgres Admin
+- App Operator / SRE (handles application deployment in Kubernetes)
