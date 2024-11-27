@@ -1,6 +1,6 @@
 
 <br>
 
-### Look at you, learning Linux!
+### Look at you, congratulations on completing the first exercise!
 
-You solved this challenge!
+
