@@ -1,6 +1,6 @@
 {
   "title": "Build & Ship An Application From Scratch",
-  "description": "n this tutorial, we will build a simple web app component written in Python that you can use for testing.",
+  "description": "In this tutorial, we will build a simple web app component written in Python that you can use for testing.",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -11,7 +11,7 @@
         "title": "Create an empty file",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
-      },
+      }
     ],
     "finish": {
       "text": "finish.md"
