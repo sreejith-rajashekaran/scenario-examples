@@ -1,0 +1,30 @@
+{
+  "title": "01 Build & Ship An Application From Scratch",
+  "description": "In this tutorial, we will build a simple web app component written in Python that you can use for testing.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Build Docker Image",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Deploy the Application",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Upgrade Application",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+ "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB-rapid"
+  }
+}
