@@ -1,5 +1,5 @@
 {
-  "title": "02 Service Tracker App",
+  "title": "02 - Service Tracker App",
   "description": "This is an example microservices application with a Javascript Web UI, a Postgres database, and a series of API microservices.",
   "details": {
     "intro": {
