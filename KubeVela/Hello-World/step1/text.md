@@ -8,6 +8,7 @@ mkdir app
 cd app
 ```{{exec}}
 ```
+
 ## Step 2: Create a file named app.py by navigating to "app" folder using the Editor
 
 ## Step 3: Copy the below code into the app.py file
@@ -47,6 +48,7 @@ CMD exec gunicorn --bind :$PORT app:app
 docker login
 ```{{exec}}
 ```
+
 ## Step 6: Use Docker to build the sample code into a container. To build and push with Docker Hub, run these commands replacing oamdev with your Docker Hub username
 
 ```plain
