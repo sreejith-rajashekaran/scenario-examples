@@ -1,5 +1,3 @@
-# Deploy the Application
-
 The following instructions will lead you deploy the image that you build in the previous stage. 
 
 ### Step 1: Determine Component Type 
