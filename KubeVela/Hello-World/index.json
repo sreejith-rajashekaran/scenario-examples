@@ -1,6 +1,6 @@
 {
-  "title": "Linux Files Intro",
-  "description": "Let's learn some basic commands to work with files on a Linux system",
+  "title": "Build & Ship An Application From Scratch",
+  "description": "n this tutorial, we will build a simple web app component written in Python that you can use for testing.",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -12,22 +12,12 @@
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
-      {
-        "title": "Create a file with text",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
-      },
-      {
-        "title": "Delete a file",
-        "text": "step3/text.md",
-        "verify": "step3/verify.sh"
-      }
     ],
     "finish": {
       "text": "finish.md"
     }
   },
-  "backend": {
-    "imageid": "ubuntu"
+ "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
   }
 }
