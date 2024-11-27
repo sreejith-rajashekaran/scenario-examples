@@ -7,7 +7,6 @@ The following instructions will lead you to build an image from source.
 mkdir app
 cd app
 ```{{exec}}
-```
 
 ## Step 2: Create a file named app.py by navigating to "app" folder using the Editor
 
@@ -23,7 +22,6 @@ def hello_world():
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', "8080")))
-```
 
 ## Step 4: Create a file named Dockerfile and copy the code
 ```plain
@@ -47,7 +45,6 @@ CMD exec gunicorn --bind :$PORT app:app
 ```plain
 docker login
 ```{{exec}}
-```
 
 ## Step 6: Use Docker to build the sample code into a container. To build and push with Docker Hub, run these commands replacing oamdev with your Docker Hub username
 
