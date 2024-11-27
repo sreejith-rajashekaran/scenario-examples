@@ -1,0 +1,1 @@
+A curated hands-on training to upskill yourselves in KubeVela
