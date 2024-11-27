@@ -8,9 +8,8 @@
     },
     "steps": [
       {
-        "title": "Create an empty file",
-        "text": "step1/text.md",
-        "verify": "step1/verify.sh"
+        "title": "Hello World",
+        "text": "step1/text.md"
       }
     ],
     "finish": {
