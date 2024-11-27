@@ -8,8 +8,12 @@
     },
     "steps": [
       {
-        "title": "Hello World",
+        "title": "Build Docker Image",
         "text": "step1/text.md"
+      },
+      {
+        "title": "Deploy the Application",
+        "text": "step2/text.md"
       }
     ],
     "finish": {
