@@ -28,10 +28,10 @@
       "/root/setup2.sh"
     ],
     "files": {
-      "assets/setup2.sh": "/root/setup2.sh",
-      "assets/app.yml": "/root/app.yml",
-      "assets/enhanced-webservice.yml" : "/root/enhanced-webservice.yml",
-      "assets/secret.yml" : "/root/secret.yml"
+      "02-Service-Tracker-App/assets/setup2.sh": "/root/setup2.sh",
+      "02-Service-Tracker-App/assets/app.yml": "/root/app.yml",
+      "02-Service-Tracker-App/assets/enhanced-webservice.yml" : "/root/enhanced-webservice.yml",
+      "02-Service-Tracker-App/assets/secret.yml" : "/root/secret.yml"
     }
   },
  "backend": {
