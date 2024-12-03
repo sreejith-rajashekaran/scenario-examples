@@ -7,7 +7,10 @@
       "background": "setup.sh"
     },
     "steps": [
-    
+      {
+        "title": "Test Step 1",
+        "text": "step1/text.md"
+      }
     ],
     "finish": {
       "text": "finish.md"

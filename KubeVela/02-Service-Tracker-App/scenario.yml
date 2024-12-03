@@ -1,8 +1,8 @@
-title: My KillerCoda Scenario
+title: 02-Service-Tracker-App
 description: A scenario to demonstrate how to add files to a Killercoda environment.
 difficulty: 2
 steps:
-  - step1.md
+  - step1/text.md
 backend: kubernetes
 environment:
   - name: default
@@ -10,5 +10,5 @@ environment:
       - assets/app.yml:/root/app.yml
       - assets/enhanced-webservice.yml:/root/enhanced-webservice.yml
       - assets/secret.yml:/root/secret.yml
-      - assets/setup.sh:/root/setup.sh
-    startup_script: /root/setup.sh
+      - assets/setup2.sh:/root/setup2.sh
+    startup_script: /root/setup2.sh
