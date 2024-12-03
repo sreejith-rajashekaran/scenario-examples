@@ -1,3 +1,10 @@
+curl -fsSl https://kubevela.io/script/install.sh | bash
+
+chmod +x /root/setup.sh
+
+vela install
+
+mkdir -p KubeVelaManifest 
 
 mv /root/app.yml KubeVelaManifest/app.yml
 mv /root/enhanced-webservice.yml KubeVelaManifest/enhanced-webservice.yml
