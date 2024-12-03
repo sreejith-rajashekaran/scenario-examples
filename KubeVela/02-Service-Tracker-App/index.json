@@ -23,11 +23,15 @@
         "position": "right"
       }
     ],
+    "scripts": [
+      "chmod +x /root/setup2.sh",
+      "/root/setup2.sh"
+    ],
     "files": {
-      "/KubeVela/02-Service-Tracker-App/assets/setup2.sh": "/root/setup2.sh",
-      "/KubeVela/02-Service-Tracker-App/assets/app.yml": "/root/app.yml",
-      "/KubeVela/02-Service-Tracker-App/assets/enhanced-webservice.yml" : "/root/enhanced-webservice.yml",
-      "/KubeVela/02-Service-Tracker-App/assets/secret.yml" : "/root/secret.yml"
+      "KubeVela/02-Service-Tracker-App/assets/setup2.sh": "/root/setup2.sh",
+      "KubeVela/02-Service-Tracker-App/assets/app.yml": "/root/app.yml",
+      "KubeVela/02-Service-Tracker-App/assets/enhanced-webservice.yml" : "/root/enhanced-webservice.yml",
+      "KubeVela/02-Service-Tracker-App/assets/secret.yml" : "/root/secret.yml"
     }
   },
  "backend": {

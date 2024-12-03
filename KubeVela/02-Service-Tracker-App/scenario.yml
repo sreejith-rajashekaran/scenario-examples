@@ -1,8 +1,5 @@
 title: "02-Service-Tracker-App"
 description: "test"
-difficulty: 2
-steps:
-  - step1/text.md
 backend: "kubernetes-kubeadm-1node-4GB-rapid"
 environment:
   - name: default
