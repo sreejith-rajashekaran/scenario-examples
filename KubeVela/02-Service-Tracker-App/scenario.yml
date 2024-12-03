@@ -7,6 +7,8 @@ backend: kubernetes
 environment:
   - name: default
     files:
-      - KubeVelaManifest/app.yaml:/root/app.yaml
-      - KubeVelaManifest/enhanced-webservice.yaml:/root/enhanced-webservice.yaml
-      - KubeVelaManifest/secret.yaml:/root/secret.yaml
+      - assets/app.yml:/root/app.yml
+      - assets/enhanced-webservice.yml:/root/enhanced-webservice.yml
+      - assets/secret.yml:/root/secret.yml
+      - assets/setup.sh:/root/setup.sh
+    startup_script: /root/setup.sh
