@@ -15,7 +15,11 @@
     "assets": {
       "host01": [
         {"file": "app.yaml", "target": "~/", "chmod": "+w"},
-        {"file": "app.yaml", "target": "/my/location", "chmod": "+w"}
+        {"file": "app.yaml", "target": "/my/location", "chmod": "+w"},
+        {"file": "enhanced-webservice.yaml", "target": "~/", "chmod": "+w"},
+        {"file": "enhanced-webservice.yaml", "target": "/my/location", "chmod": "+w"},
+        {"file": "service.yaml", "target": "~/", "chmod": "+w"},
+        {"file": "service.yaml", "target": "/my/location", "chmod": "+w"}
       ]
     },
     "finish": {
