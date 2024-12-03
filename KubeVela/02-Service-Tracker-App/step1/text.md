@@ -1,6 +1,6 @@
 The following instructions will lead you to build an image from source.
 
-### Step 1: Create a new directory and cd into it
+### Step 1: Create a new directory and cd into it lets start
 
 ```plain
 mkdir app
