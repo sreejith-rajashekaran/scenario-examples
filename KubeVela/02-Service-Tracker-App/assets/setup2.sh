@@ -1,6 +1,6 @@
 curl -fsSl https://kubevela.io/script/install.sh | bash
 
-chmod +x /root/setup.sh
+chmod +x /root/setup2.sh
 
 vela install
 
