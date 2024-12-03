@@ -1,0 +1,14 @@
+title: "02-Service-Tracker-App"
+description: "test"
+difficulty: 2
+steps:
+  - step1/text.md
+backend: "kubernetes-kubeadm-1node-4GB-rapid"
+environment:
+  - name: default
+    files:
+      - KubeVela/02-Service-Tracker-App/assets/setup2.sh:/root/setup2.sh
+      - KubeVela/02-Service-Tracker-App/assets/app.yml:/root/app.yml
+      - KubeVela/02-Service-Tracker-App/assets/enhanced-webservice.yml:/root/enhanced-webservice.yml
+      - KubeVela/02-Service-Tracker-App/assets/secret.yml:/root/secret.yml
+    startup_script: /root/setup2.sh

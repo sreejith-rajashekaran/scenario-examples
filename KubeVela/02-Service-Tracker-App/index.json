@@ -3,8 +3,7 @@
   "description": "This is an example microservices application with a Javascript Web UI, a Postgres database, and a series of API microservices.",
   "details": {
     "intro": {
-      "text": "intro.md",
-      "background": "assets/setup2.sh"
+      "text": "intro.md"
     },
     "steps": [
       {
@@ -23,10 +22,6 @@
         "name": "Terminal",
         "position": "right"
       }
-    ],
-    "scripts": [
-      "chmod +x /root/setup2.sh",
-      "/root/setup2.sh"
     ],
     "files": {
       "/KubeVela/02-Service-Tracker-App/assets/setup2.sh": "/root/setup2.sh",
