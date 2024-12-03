@@ -1,0 +1,12 @@
+title: My KillerCoda Scenario
+description: A scenario to demonstrate how to add files to a Killercoda environment.
+difficulty: 2
+steps:
+  - step1.md
+backend: kubernetes
+environment:
+  - name: default
+    files:
+      - KubeVelaManifest/app.yaml:/root/app.yaml
+      - KubeVelaManifest/enhanced-webservice.yaml:/root/enhanced-webservice.yaml
+      - KubeVelaManifest/secret.yaml:/root/secret.yaml
