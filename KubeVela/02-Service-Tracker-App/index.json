@@ -20,10 +20,10 @@
         {"file": "enhanced-webservice.yaml", "target": "/my/location", "chmod": "+w"},
         {"file": "secret.yaml", "target": "~/", "chmod": "+w"},
         {"file": "secret.yaml", "target": "/my/location", "chmod": "+w"},
-        {"file": "App", "target": "~/", "chmod": "+w"},
-        {"file": "App", "target": "/my/location", "chmod": "+w"},
-        {"file": "assets", "target": "~/", "chmod": "+w"},
-        {"file": "assets", "target": "/my/location", "chmod": "+w"}
+        {"file": "App/", "target": "~/App", "chmod": "+w"},
+        {"file": "App/", "target": "/my/location", "chmod": "+w"},
+        {"file": "assets/", "target": "~/assets", "chmod": "+w"},
+        {"file": "assets/", "target": "/my/location", "chmod": "+w"}
       ]
     },
     "finish": {
