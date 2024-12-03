@@ -1,9 +1,9 @@
-title: 02-Service-Tracker-App
-description: A scenario to demonstrate how to add files to a Killercoda environment.
+title: "02-Service-Tracker-App"
+description: "test"
 difficulty: 2
 steps:
   - step1/text.md
-backend: kubernetes
+backend: "kubernetes-kubeadm-1node-4GB-rapid"
 environment:
   - name: default
     files:
