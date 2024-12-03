@@ -14,7 +14,8 @@
     ],
     "assets": {
       "host01": [
-        {"file": "assets/app.yml", "target": "~/", "chmod": "+w"}
+        {"file": "app.yaml", "target": "~/", "chmod": "+w"},
+        {"file": "app.yaml", "target": "/my/location", "chmod": "+w"}
       ]
     },
     "finish": {
