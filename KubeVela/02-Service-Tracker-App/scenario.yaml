@@ -1,0 +1,11 @@
+title: My Scenario
+description: This scenario explains how to configure XYZ.
+difficulty: 2/5
+time: 15m
+icon: https://example.com/icon.png
+tags:
+  - Kubernetes
+  - Cloud
+files:
+  - KubeVelaManifest
+  - files/other_file.txt
