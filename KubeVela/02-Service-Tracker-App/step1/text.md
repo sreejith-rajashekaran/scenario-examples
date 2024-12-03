@@ -2,9 +2,6 @@ The following instructions will lead you to build an image from source.
 
 ### Step 1: Create a new directory and cd into it lets start
 
-[Download the example file](../assets/app.yml)
-
-
 ```plain
 mkdir app
 cd app
